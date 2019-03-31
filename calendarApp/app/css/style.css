@@ -1,0 +1,76 @@
+/* 
+Color Palette
+Dark Primary: #0097A7
+Light Primary: #B2EBF2
+Primary: #00BCD4
+Text/Icons: #FFFFFF
+Accent: #FFC107
+Primary Text: #212121
+Secondary Text: #757575
+Divider: #BDBDBD
+*/
+
+p {
+    color: #ffffff;
+}
+
+div .jumbotron {
+    background-image: url("../img/cog-bg.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+table {
+    table-layout: fixed ;
+    width: 100% ;
+}
+
+td {
+    text-align: right;
+    height: 100px;
+    width: 25% ;
+}
+
+th {
+    text-align: center;
+    background: #0097A7;
+    color: #ffffff;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.title {
+    color: #757575;
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+}
+
+.prev_next_link {
+    padding: 20PX;
+    color: #757575;
+}
+
+.prev_next_link:hover {
+    color: #212121;
+    text-decoration: none;
+}
+
+.inactive {
+    background: #BDBDBD;
+}
+
+.prev_next {
+    text-align: center;
+}
+
+.strong {
+    color: #0097A7;
+}
+
+#month_year {
+    text-align: center;
+}
+
